@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mylibrary">
+
+    <application>
+        <service
+            android:process=":remote"
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.mylibrary.MyService"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

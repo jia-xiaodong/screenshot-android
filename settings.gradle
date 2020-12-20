@@ -1,0 +1,4 @@
+include ':screenshot'
+include ':mylibrary'
+include ':app'
+rootProject.name = "HelloWorld"
